@@ -25,18 +25,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.0'
 }
 
-buildscript {
-    repositories {
-        jcenter()
-    }
-
-    dependencies {
-        classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.3.1"
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
-    }
-}
-
-
 ext {
     bintrayRepo = 'maven'
     bintrayName = 'android-bitmap-utils'
@@ -61,7 +49,5 @@ ext {
     allLicenses = ["Apache-2.0"]
 }
 
-//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
-apply from: 'installv1.gradle'
-apply from: 'bintrayv1.gradle'
+apply from: 'https://raw.githubusercontent.com/ptornhult/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/ptornhult/JCenter/master/bintrayv1.gradle'
