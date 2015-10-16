@@ -1,2 +1,15 @@
 # AndroidBitmapUtils
-A small project containing efficient methods for scaling Bitmaps in Android
+
+This project contains convenience methods that efficiently scales Bitmaps in Android.
+
+# Usage
+
+Add the dependency to your gradle build file
+
+    compile 'se.codeunlimited.utils:android-bitmap-utils:0.1'
+
+# Source
+
+Article for creating maven lib
+
+    http://inthecheesefactory.com/blog/how-to-upload-library-to-jcenter-maven-central-as-dependency/en
