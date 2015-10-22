@@ -8,8 +8,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 2
-        versionName "0.2"
+        versionCode 3
+        versionName "0.3"
     }
     buildTypes {
         release {
@@ -29,7 +29,7 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'android-bitmap-utils'
 
-    publishedGroupId = 'se.codeunlimited.utils'
+    publishedGroupId = 'se.codeunlimited.android.bitmap_utils'
     libraryName = 'AndroidBitmapUtils'
     artifact = 'android-bitmap-utils'
 
@@ -38,7 +38,7 @@ ext {
     siteUrl = 'https://github.com/ptornhult/AndroidBitmapUtils'
     gitUrl = 'https://github.com/ptornhult/AndroidBitmapUtils.git'
 
-    libraryVersion = '0.2'
+    libraryVersion = '0.3'
 
     developerId = 'ptornhult'
     developerName = 'Peter Törnhult'

@@ -1,4 +1,4 @@
-package se.codeunlimited.utils;
+package se.codeunlimited.android.bitmap_utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
