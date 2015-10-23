@@ -6,7 +6,7 @@ This project contains convenience methods that efficiently scales Bitmaps in And
 
 Add the dependency to your gradle build file
 
-    compile 'se.codeunlimited.utils:android-bitmap-utils:0.2'
+    compile 'se.codeunlimited.android.bitmap_utils:android-bitmap-utils:0.3'
 
 # Source
 
