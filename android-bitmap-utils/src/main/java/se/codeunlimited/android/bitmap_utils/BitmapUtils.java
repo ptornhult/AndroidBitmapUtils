@@ -84,7 +84,7 @@ public class BitmapUtils {
             thumb = BitmapFactory.decodeFile(fileName, options);
             return rotate(thumb, rotation);
         }finally {
-            if (thumb!=null) {
+            if (rotation != 0 && thumb != null) {
                 thumb.recycle();
             }
         }
